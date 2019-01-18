@@ -1,7 +1,7 @@
 # othello
 
 - Playing a game of Othello (Reversi) with deep-learning network agent.
-- The network mimicks that of Alphago Zero.
+- The network and Monte Carlo tree search algorithm mimicks that of Alphago Zero.
 
 - This program needs 'pygame', 'numpy', 'pickle' from PYPI.
 
