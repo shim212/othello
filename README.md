@@ -2,7 +2,7 @@
 
 - Playing a game of Othello (Reversi) with deep-learning network agent.
 
-- The network structure and Monte Carlo tree search algorithm mimicks that of AlphaGo.
+- The network structure and Monte Carlo tree search algorithm mimicks that of AlphaGo by DeepMind.
 
 - This program needs 'pygame', 'numpy', 'pickle' from PYPI.
 
