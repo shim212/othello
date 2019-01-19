@@ -78,7 +78,7 @@ UCTITERTIME = 500
 P1NAME = 'Net'
 P2NAME = 'Human'
 
-P1Param = 'model/p754.pkl'
+P1Param = 'model/p777.pkl'
 #P2Param = 'model/p42.pkl'
 
 P1MCTSITERTIME = 800
