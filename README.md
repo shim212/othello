@@ -4,6 +4,8 @@
 
 - The network structure and Monte Carlo tree search algorithm mimicks that of AlphaGo by DeepMind.
 
+- The network parameter was trained by data produced by self-play games from blank knowledge except the rule itself.
+
 - This program needs 'pygame', 'numpy', 'pickle' from PYPI.
 
 - This program does not use the known machine learning framework such as tensorflow, but it uses the python files adopted and modified from the book 'Deep Learning from Scratch' by Saito Goki.
