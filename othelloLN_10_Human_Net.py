@@ -26,8 +26,8 @@
 =====================
 
 * othelloLN_10_Human_Net.py
-- getNetMove에서 network predict를 하나씩 하지 않고, 최개 TN(thread No)(=10)개씩 묶음으로 하도록 함.
-- BN 만큼 exploration 하는 중에 이전 thread 가 지나간 경로로는 VL(virtual loss)(=3)을 두기.
+- getNetMove에서 network predict를 하나씩 하지 않고, TN(thread No)(=10)개씩 묶음으로 하도록 함.
+- TN 만큼 exploration 하는 중에 이전 thread 가 지나간 경로로는 VL(virtual loss)(=3)을 두기.
 -> getNetMove에서 N수가 같은 것이 여러개인 경우, 첫번째 것이 아니라 이중 random으로 고름.
 - state를 만들 때, Q 초기 값은 모두 value로, N 초기 값은 legal 에 대해서 모두 1로 하기. mcts_policy 구할 때는 legal action의 N에서 도로 1씩 빼고 계산하기.
 - state.SelectAction에서도 puct 가 같은 것이 여러 개인 경우, 이중 random으로 고르게함.
