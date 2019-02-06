@@ -78,17 +78,17 @@ UCTITERTIME = 500
 P1NAME = 'Net'
 P2NAME = 'Human'
 
-P1Param = 'model/p856.pkl'
+P1Param = 'model/p1156.pkl'
 #P2Param = 'model/p42.pkl'
 
-P1MCTSITERTIME = 800
+P1MCTSITERTIME = 1600
 #P2MCTSITERTIME = 200
 
 NOISE_POLICY = 0.20
-CPUCT = 2
+CPUCT = 1.0
 
 TN = 10
-VL = 1
+VL = 3
 
 SGF_CONTENT = ''
 SGFFORMAT = '(;GM[2]AP[ShimSS]SZ[8]FF[4]GN[Net vs Human]GC[]EV[]RO[]PC[]DT[{0}]TM[]PB[{1}]BR[]PW[{2}]WR[]RE[{3}]\n {4})\n\n'
