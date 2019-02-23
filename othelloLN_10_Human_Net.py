@@ -78,10 +78,10 @@ UCTITERTIME = 500
 P1NAME = 'Net'
 P2NAME = 'Human'
 
-P1Param = 'model/p1156.pkl'
+P1Param = 'model/p1527.pkl'
 #P2Param = 'model/p42.pkl'
 
-P1MCTSITERTIME = 1600
+P1MCTSITERTIME = 800
 #P2MCTSITERTIME = 200
 
 NOISE_POLICY = 0.20
